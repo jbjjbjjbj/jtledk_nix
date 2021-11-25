@@ -238,6 +238,7 @@ in {
     server_name = domain;
     registration_shared_secret = secrets.matrix_reg_secret;
     enable_registration = false;
+    package = unstable.matrix-synapse;
     database_name = "matrix_synapse";
     listeners = [
       {
